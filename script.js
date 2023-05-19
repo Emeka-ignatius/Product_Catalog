@@ -14,7 +14,6 @@ viewDetailsButtons.forEach((button, index) => {
     const capacity = product.querySelector('p:nth-of-type(2)').textContent;
     const price = product.querySelector('p:nth-of-type(3)').textContent;
 
-    modalImage.alt = title;
     modalTitle.textContent = title;
     modalDescription.textContent = description;
     modalCapacity.textContent = capacity;
